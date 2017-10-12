@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background: #bbb;
+    font-size: 30px;
+}
+
+.hangman-heading {
+    color: #fff;
+    background: #FC7249;
+    height: 75px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 7px;
+}
+
+#wordBlanks {
+    font-size: 36px;
+    color: #fff;
+    background: #2C3E50;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: 5px solid white;
+
+}
+
+div .alphabetBtns {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background: #6DBCDB;
+    margin: 5px;
+    margin-top: 30px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+
+
+}
+
+#wrongGuesses {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 5px solid white;
+    margin: 20px;
+    width: 500px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+    background: #2C3E50;
+
+}
+
+#guessesLeft {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 5px solid white;
+    margin: 20px;
+    width: 500px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+    background: #2C3E50;
+}
+
+#wins {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 5px solid white;
+    margin: 20px;
+    width: 500px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+    background: #2C3E50;
+}
+
+#losses {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 5px solid white;
+    margin: 20px;
+    width: 500px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+    background: #2C3E50;
+}
+
+.alphabetBtns:hover {
+    cursor: pointer;
+    background: white;
+    color: #6DBCDB;
+    border: 2px solid #6DBCDB ;
+}
+
